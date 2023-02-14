@@ -1,0 +1,9 @@
+command:
+sonar-scanner.bat \
+  -D"sonar.organization=lions-99" \
+  -D"sonar.projectKey=lions1999_EsameISPW140223" \
+  -D"sonar.sources=." \
+  -D"sonar.host.url=https://sonarcloud.io"
+
+token:
+5e1061f09246608425b722ea7fd35231dfc5dff5
