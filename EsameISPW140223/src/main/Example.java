@@ -2,8 +2,6 @@ package main;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Example {
     public static int findMax(int[] numbers) {
@@ -24,13 +22,12 @@ public class Example {
 
 
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Example.class.getName());
-        logger.log(Level.INFO,"Enter length of array : ");
+        System.out.println("Enter length of array : ");
         Scanner scanner = new Scanner(System.in);
         int length = scanner.nextInt();
         int[] numbers = {};
         for (int i = 0; i < length; i++){
-            logger.log(Level.INFO,"Enter new array number : ");
+            System.out.println("Enter new array number : ");
             numbers = addElement(numbers,scanner.nextInt());
         }
         int result = findMax(numbers);
