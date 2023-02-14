@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676364507784</updated>
       <workItem from="1676364509063" duration="536000" />
-      <workItem from="1676366362991" duration="991000" />
+      <workItem from="1676366362991" duration="1623000" />
     </task>
     <servers />
   </component>
@@ -97,7 +97,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EsameISPW140223$Example.ic" NAME="Example Coverage Results" MODIFIED="1676367312584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/EsameISPW140223$Example.ic" NAME="Example Coverage Results" MODIFIED="1676367395833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.*</FILTER>
     </SUITE>
   </component>

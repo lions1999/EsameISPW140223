@@ -34,6 +34,9 @@ public class Example {
             numbers = addElement(numbers,scanner.nextInt());
         }
         int result = findMax(numbers);
-        System.out.println("Result: " + result);
+        logger.log(Level.INFO,"Result : "+ result);
+
+        String name = null;
+        System.out.println(name.length());
     }
 }
